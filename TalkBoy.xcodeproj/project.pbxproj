@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F8EA87F1207FD7AA0049C287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA87F0207FD7AA0049C287 /* AppDelegate.swift */; };
-		F8EA87F3207FD7AA0049C287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA87F2207FD7AA0049C287 /* ViewController.swift */; };
 		F8EA87F6207FD7AA0049C287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EA87F4207FD7AA0049C287 /* Main.storyboard */; };
 		F8EA87F9207FD7AA0049C287 /* TalkBoy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8EA87F7207FD7AA0049C287 /* TalkBoy.xcdatamodeld */; };
 		F8EA87FB207FD7AB0049C287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EA87FA207FD7AB0049C287 /* Assets.xcassets */; };
 		F8EA87FE207FD7AB0049C287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EA87FC207FD7AB0049C287 /* LaunchScreen.storyboard */; };
+		F8EA8806207FE2100049C287 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA8805207FE2100049C287 /* ItemTableViewController.swift */; };
+		F8EA8808207FE2310049C287 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA8807207FE2310049C287 /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8EA87ED207FD7AA0049C287 /* TalkBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EA87F0207FD7AA0049C287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8EA87F2207FD7AA0049C287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8EA87F5207FD7AA0049C287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8EA87F8207FD7AA0049C287 /* TalkBoy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TalkBoy.xcdatamodel; sourceTree = "<group>"; };
 		F8EA87FA207FD7AB0049C287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8EA87FD207FD7AB0049C287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8EA87FF207FD7AB0049C287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EA8805207FE2100049C287 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		F8EA8807207FE2310049C287 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				F8EA87F0207FD7AA0049C287 /* AppDelegate.swift */,
-				F8EA87F2207FD7AA0049C287 /* ViewController.swift */,
+				F8EA8805207FE2100049C287 /* ItemTableViewController.swift */,
+				F8EA8807207FE2310049C287 /* AddItemViewController.swift */,
 				F8EA87F4207FD7AA0049C287 /* Main.storyboard */,
 				F8EA87FA207FD7AB0049C287 /* Assets.xcassets */,
 				F8EA87FC207FD7AB0049C287 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EA87F3207FD7AA0049C287 /* ViewController.swift in Sources */,
 				F8EA87F9207FD7AA0049C287 /* TalkBoy.xcdatamodeld in Sources */,
+				F8EA8808207FE2310049C287 /* AddItemViewController.swift in Sources */,
+				F8EA8806207FE2100049C287 /* ItemTableViewController.swift in Sources */,
 				F8EA87F1207FD7AA0049C287 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
