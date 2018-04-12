@@ -89,5 +89,18 @@ class AddItemViewController: UIViewController {
     }
     
     @IBAction func addTapped(_ sender: Any) {
+        //get generic access to core data context
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            //pass data to a Sound entity in core data for storage
+            let sound = Sound(entity: Sound.entity(), insertInto: context)
+            sound.name = nameTextField.text
+            if let audioURL = self.audioURL{ //have to unwrap audioURL
+                sound.audioData = try? Data(contentsOf: audioURL)
+                //save context
+                try? context.save()
+                //return to previous view controller
+                navigationController?.popViewController(animated: true)
+            }
+        }
     }
 }
